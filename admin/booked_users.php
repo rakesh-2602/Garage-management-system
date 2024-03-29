@@ -19,6 +19,7 @@ if(!isset($_SESSION['admin_name']))
     <title>Booked Users</title>
 </head>
 <body>
+    <br><br>
 <nav>
 <a href="sell.php"><i class="fas fa-home"></i></a></nav>
 <?php 
@@ -106,7 +107,7 @@ if(!isset($_SESSION['admin_name']))
         color:white;
     }
     nav a:hover{
-        color:blue;
+        color:green;
     }
     h1{
         margin-left: 40%;

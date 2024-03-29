@@ -122,12 +122,13 @@ if(!isset($_SESSION['admin_name']))
     .btn{
         cursor:pointer;
         color:white;
-        background:red;
-        border:2px solid red;
+        background:green;
+        border:2px solid green;
+        border-radius:50px;
     }
     .btn:hover{
-        color:red;
-        background:white;
+        color:white;
+        background:red;
         border:2px solid red;
     }
   table {

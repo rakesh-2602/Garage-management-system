@@ -13,7 +13,7 @@ if(!isset($_SESSION['admin_name']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body><br>
 <a href="accessories.php">Back</a>
 <table>
           <tr>
@@ -64,6 +64,8 @@ if(!isset($_SESSION['admin_name']))
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 90%;
+  margin-top:50px;
+  margin-left:50px;
 }
 
 td, th {
@@ -82,16 +84,16 @@ th{
     margin-left: 90%;
     font-size: 20px;
     border:1px solid black;
-    background-color: #000;
+    background-color: green;
     padding:4px;
     border-radius:15px; 
     padding-left: 12px;
     padding-right: 12px;
-    color:#fff;
+    color:white;
     }
     a:hover{
-        background-color: #fff;
-    color:#000;
+        background-color: red;
+    color:white;
     }
     body{
         background:linear-gradient(#191654,#43C6AC);

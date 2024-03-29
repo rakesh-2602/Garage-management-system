@@ -39,7 +39,7 @@ session_start();
                 <input type="password" placeholder="Confirm password" name="cpass" required/><br><br>
                 <label for="btn">Add Profile Photo</label>
                 <button type="button" name="btn" class="btn-warning">
-                    <i class="fa fa-upload"></i>Upload file
+                    <i class="fa fa-upload"></i> Upload file
                     <input type="file" name="photo" required/>
                 </button></label><br><br>
                 <input type="submit" class="sub" name="register" value="Sign up"/>
@@ -51,6 +51,9 @@ session_start();
     </div>
 </body>
 <style>
+    .box{
+        border-radius:50px;
+    }
         .closebtn{
             margin-left:15px;
             color:black;
@@ -78,11 +81,12 @@ session_start();
         font-size:15px;
         line-height: 1.5;
         border-radius:3px;
-        color:#fff;
-        background-color: #ffc100;
+        color:white;
+        background-color: red;
         border:0;
         overflow:hidden;
         left:5%;
+        border-radius:50px;
     }
     .btn-warning input[type=file]{
         cursor:pointer;
@@ -93,7 +97,7 @@ session_start();
         opacity:0;
     }
     .btn-warning:hover{
-        background: #d9a400;
+        background: green;
     }
         #alert{
             height:auto;
@@ -107,7 +111,7 @@ session_start();
             border-radius:4px;
             }
         input[type="submit"]:hover{
-    background-color: blue;
+            background-color: green;
             } 
             input[type="submit"]{
                 width:80%;
@@ -115,6 +119,8 @@ session_start();
                 margin-left: 10%;
                 border-radius:15px;
                 border:none;
+                border-radius:50px;
+                background-color: red;
             }
             input[type=file]{
                 border:1px solid black;
@@ -122,6 +128,10 @@ session_start();
                 padding-top: 8px;
                 padding-bottom: 8px;
                 border:none ;
+            }
+            input[type='text'],input[type='password'],input[type='email']
+            {
+                border-radius:50px;
             }
 
 </style>

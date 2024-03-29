@@ -46,7 +46,7 @@ if(!isset($_SESSION['admin_name']))
         <a href="sell.php"><i class="fa fa-th-large"><span>Sell</span></i></a>
         <a href="feedback.php"><i class="fa fa-th-large"><span>Feedbacks</span></i></a>
         <a href="invoice.php"><i class="fa fa-th-large"><span>Invoice</span></i></a>
-        <a href="adminlogout.php">Logout</a>
+        <a href="adminlogout.php"><i class="fa fa-sign-out"><span>Logout</span></i></a>
     </div>
     <section class="home-section">
 <h2>Registered Users</h2>
@@ -116,13 +116,14 @@ else
     }
     .btn{
         color:white;
-        background:red;
-        border:2px solid red;
+        background:green;
+        border:2px solid green;
         cursor:pointer;
+        border-radius:50px;
     }
     .btn:hover{
-        color:red;
-        background:white;
+        color:white;
+        background:red;
         border:2px solid red;
     }
   table {

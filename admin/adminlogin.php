@@ -36,45 +36,61 @@ if(isset($_SESSION['admin_name']))
  				<input type="email" placeholder="email" name="name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
  			<br>
  				<input type="password" placeholder="password" name="password" required>
- 			<br>
+ 			<br><br>
  				<input type="submit" name="submit" value="Submit">
  		</form>
+		<p>
+			<span>Back to user login </span><a href="../LoginRegister/login.php" class="link">User</a>
+		</p>
  	</div>
  </div>
 </body>
 <style>
     body {
 	font-family: sans-serif;	
-	background-image: url(bg.jpeg);
+	background-image: url(../images/logo2.jpg);
 	background-repeat: no-repeat;
 	overflow: hidden;
 	background-size: cover;
 }
 
 .container {
-	width: 380px;
+	padding: 1%;
+    height: 300px;
+    width: 380px;
+    background-color: white;
 	margin:7% auto;
 	border-radius: 25px;
-	/* background-color: rgba(0,0,0,0.1); */
-	/* box-shadow: 0 0 17px #333; */
+	background-color: white;
+	box-shadow: 0 0 17px #333; 
+	margin-top:180px;
+}
+
+input[type="password"],input[type="email"]{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid black;
+	border-radius:50px;
+	margin-top:5px;
 }
 
 .header {
 	text-align: center;
-	padding-top: 75px;
+	padding-top: 20px;
 }
 
 .header h1 {
-	color: white;
+	color: black;
 	font-size: 45px;
-	margin-bottom: 40px;
+	margin-top: -15px;
 }
 
 .main {
 	text-align: center;
 }
 
-.main input,input[type=submit] {
+.main input[type=submit] {
 	width: 300px;
 	height: 40px;
 	border:none;
@@ -101,9 +117,21 @@ if(isset($_SESSION['admin_name']))
 	box-shadow: 2px 2px 5px #555;
 	background-color: green;
 }
-.main input:hover {
+/* .main input:hover {
 	box-shadow: 2px 2px 5px #555;
 	background-color: #ddd;
+} */
+
+span{
+	color:black;
+}
+
+link{
+	color:blue;
+}
+
+p{
+	margin-top:-50px;
 }
 </style>
 </html>

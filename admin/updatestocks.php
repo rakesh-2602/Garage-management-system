@@ -35,7 +35,7 @@ if(!isset($_SESSION['admin_name']))
                 unset ($_SESSION['status']);
             }
         ?>
-<br><br><br><br><h2 align="center">CATEGORIES</h2>
+<br><br><br><h2 align="center">CATEGORIES</h2>
 <div class="categories">
     <div class="smallcontainer">
     <div class="row2">
@@ -525,7 +525,7 @@ if(!isset($_SESSION['admin_name']))
         color:black;
     }
     nav a:hover{
-        color:blue;
+        color:red;
     }
     h8{
         margin-left: 15%;
@@ -544,7 +544,12 @@ if(!isset($_SESSION['admin_name']))
         width: 100%;
         height: 32px;
         margin-top: 6%;
-        background: rgb(64, 171, 64);
+        background: red;
+        border-radius:50px;
+        color:white;
+    }
+    input[type=submit]:hover{
+        background-color:green;
     }
     .rating i{
         color: goldenrod;

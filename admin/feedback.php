@@ -99,13 +99,14 @@ if(!isset($_SESSION['admin_name']))
 </body>
 <style>
     input[type=submit]{
-        background-color: red;
-        color:#fff;
+        background-color: green;
+        color:white;
         cursor:pointer;
+        border-radius:50px;
     }
     input[type=submit]:hover{
-        color:#000;
-        background-color: #fff;
+        color:white;
+        background-color: red;
     }
     .side-nav .logo img{
         width: 100px;
