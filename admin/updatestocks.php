@@ -24,7 +24,7 @@ if(!isset($_SESSION['admin_name']))
 <a href="accessories.php"><i class="fas fa-home"></i></a></nav>
 <?php 
         if(isset($_SESSION['status']))
-            {
+            { 
                 ?>
                 <script>
                 swal({
