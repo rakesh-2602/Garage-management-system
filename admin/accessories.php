@@ -104,7 +104,7 @@ if(!isset($_SESSION['admin_name']))
         border-radius: 100px;
         margin-bottom: 10px;
     }
-      .btn{
+      /* .btn{
         color:white;
         background:red;
         border:2px solid red;
@@ -114,14 +114,19 @@ if(!isset($_SESSION['admin_name']))
         color:red;
         background:white;
         border:2px solid red;
+    } */
+    input[type=submit]{
+        cursor:pointer;
+        margin-left:80%;
+        width:120px;
+        height:40px;
+        border-radius:50px;
+        background:red;
+        font-style:bold;
+        color:white;
     }
-input[type=submit]{
-    cursor:pointer;
-   margin-left:80%;
-   width:100px;
-   height:35px;
-   border-radius:7px;
-   background:rgb(21, 216, 57);
+    input[type=submit]:hover{
+    background-color: green;
 }
   table {
   font-family: arial, sans-serif;
@@ -209,11 +214,11 @@ h2{
     .home-section{
         padding-left: 40px;
         padding-top: 50px;
-  position: relative;
-  background:linear-gradient(#191654,#43C6AC);
-  min-height: 100vh;
-  width: calc(100% - 240px);
-  left: 240px;
-}
+        position: relative;
+        background:linear-gradient(#191654,#43C6AC);
+        min-height: 100vh;
+        width: calc(100% - 240px);
+        left: 240px;
+    }
 </style>
 </html>

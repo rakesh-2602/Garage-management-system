@@ -117,14 +117,15 @@ if(!isset($_SESSION['admin_name']))
     }
     .btn{
         color:white;
-        background:red;
-        border:2px solid red;
+        background:green;
+        border:2px solid green;
         cursor:pointer;
     }
     .btn:hover{
-        color:red;
-        background:white;
+        color:white;
+        background:red;
         border:2px solid red;
+        border-radius:50px;
     }
   table {
   font-family: arial, sans-serif;

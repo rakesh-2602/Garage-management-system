@@ -47,17 +47,17 @@ if(!isset($_SESSION['admin_name']))
         <a href="adminlogout.php">Logout</a>
     </div>
     <section class="home-section">
-        <form action="booked_users.php" method="POST">
+        <form action="booked_users.php" method="POST"><br>
         <input type="submit" class="btn" name="booked_users" value="Booked Users">
         </form>
         <form action="admindb.php" method="POST" enctype="multipart/form-data">
             <div class="container">
                     <h1>Enter product details</h1><br>
-                        <input type="text" name="brand" placeholder="Enter brand" required /><br>
-                        <input type="text" name="model" placeholder="Enter model" required /><br>
-                        <input type="number" min="2000" name="year" placeholder="Enter year" required /><br>
-                        <input type="number" min="1" name="ownership" placeholder="Enter Ownership" required /><br>
-                        <input type="number" name="price" min="1" placeholder="Enter price" required /><br>                       
+                        <input type="text" id='enter' name="brand" placeholder="Enter brand" required /><br>
+                        <input type="text" id='enter'  name="model" placeholder="Enter model" required /><br>
+                        <input type="number" id='enter' min="2000" name="year" placeholder="Enter year" required /><br>
+                        <input type="number" id='enter' min="1" name="ownership" placeholder="Enter Ownership" required /><br>
+                        <input type="number" id='enter' name="price" min="1" placeholder="Enter price" required /><br>                       
                         <p>Upload Photo</p> 
                         <input type="file" name="photo" id="choose_file"><br>
                         <input type="submit" name="upload" value="Upload">
@@ -71,7 +71,7 @@ if(!isset($_SESSION['admin_name']))
 	margin: 0;
 	padding: 0;
 }
-.side-nav .logo img{
+ .side-nav .logo img{
         width: 100px;
         height: 60px;
         border-radius: 100px;
@@ -87,7 +87,7 @@ if(!isset($_SESSION['admin_name']))
     }
     ::-webkit-file-upload-button{
         border:none;
-        background: #02744efa;
+        background: green;
         border-radius:50px;
         height:34px;
         color:white;
@@ -95,26 +95,31 @@ if(!isset($_SESSION['admin_name']))
         box-shadow:3px 1px 1px gray;
         cursor:pointer;
     }
+#enter{
+    padding-left: 10px;
+}
 input{
     width: 100%;
     height: 40px;
+    border-radius: 50px;
 }
 input[type=submit].btn{
     margin-top: 15px;;
     margin-left: 80%;
-    width:10%;
-    border-radius: 8px;
-    background-color: rgb(34, 232, 34);
+    width:120px;
+    border-radius: 50px;
+    background-color: red;
     cursor:pointer;
-}
+} 
 input[type=submit]{
+    color:white;
     cursor:pointer;
-    border-radius: 8px;
-    background-color: rgb(34, 232, 34);
+    border-radius: 50px;
+    background-color: red;
 }
 input[type=submit]:hover{
-    background-color: rgb(34, 164, 34);
-}
+    background-color: green;
+} 
 .container {
     margin-left: 30%;
     margin-top: 5%;

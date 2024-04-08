@@ -189,7 +189,7 @@ if(isset($_POST['changephoto']))
         border-radius:50px;
     }
     .photo input[type=submit]:hover{
-        background-color: coral;
+        background-color: green;
     }
 
     h3{
@@ -209,15 +209,15 @@ if(isset($_POST['changephoto']))
     margin-left: 90%;
     font-size: 20px;
     border:1px solid black;
-    background-color: #fff;
+    background-color: green;
     padding:4px;
     border-radius:15px; 
     padding-left: 12px;
     padding-right: 12px;
-    color:black;
+    color:white;
     }
     a:hover{
-        background-color: green;
+        background-color: red;
     color:white;
     }
    .container{
@@ -252,12 +252,12 @@ if(isset($_POST['changephoto']))
     font-size:17px;
     color:white;
     border:none;
-    background-color:green;
+    background-color:red;
     box-shadow:2px 3px 5px gray;
     border-radius:50px;
    }
    input[type=submit]:hover{
-    background-color: darkgreen;
+    background-color: green;
    }
    button{
     height:35px;

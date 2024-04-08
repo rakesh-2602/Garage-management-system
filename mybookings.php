@@ -187,15 +187,15 @@ if($qryres)
     margin-left: 90%;
     font-size: 20px;
     border:1px solid black;
-    background-color: #fff;
+    background-color: green;
     padding:4px;
     border-radius:15px; 
     padding-left: 12px;
     padding-right: 12px;
-    color:black;
+    color:white;
     }
     a:hover{
-        background-color: green;
+        background-color: red;
         color:white;
     }
     .footer{

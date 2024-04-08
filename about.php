@@ -120,12 +120,12 @@ session_start();
     float: right;
     font-size: 20px;
     border:1px solid black;
-    background-color: #fff;
+    background-color: green;
     padding:4px;
     border-radius:15px; 
     padding-left: 12px;
     padding-right: 12px;
-    color:black;
+    color:white;
   }
 
   .about-section img{
@@ -133,7 +133,7 @@ margin-left:5%;
   }
 
   .about-section a:hover{
-    background-color: green;
+    background-color: red;
     color:white;
   }
 
@@ -172,13 +172,13 @@ margin-left:5%;
   display: flex;
   flex-direction: column;
   position: relative;
-  color: #ea1d6f;
+  color: white;
   font-size: 26px;
 }
 .app-contact {
   margin-top: auto;
-  font-size: 8px;
-  color: #888;
+  font-size: 10px;
+  color: white;
 }
 
 .app-form-group {
@@ -195,10 +195,16 @@ margin-left:5%;
 }
 .app-form-group.buttons input[type=submit]{
   border:none;
-  background-color: #ea1d6f;
-  height:22px;
-  width:25%;
+  background-color: red;
+  height:25px;
+  width:30%;
   cursor: pointer;
+  color:white;
+  border-radius:50px;
+}
+
+.app-form-group.buttons input[type=submit]:hover{
+  background-color: green;
 }
 
 .app-form-control {
@@ -207,14 +213,14 @@ margin-left:5%;
   background: none;
   border: none;
   border-bottom: 1px solid #666;
-  color: #ddd;
+  color: white;
   font-size: 14px;
   outline: none;
   transition: border-color .2s;
 }
 
 .app-form-control::placeholder {
-  color: #666;
+  color: white;
 }
 
 .app-form-control:focus {
@@ -310,7 +316,7 @@ margin-left:5%;
         background-color: black; 
     }
     body {
-      background-color: lightgray;
+      background-color: white;
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
     }

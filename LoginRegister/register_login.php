@@ -34,7 +34,7 @@ function sendMail($email,$otp,$user)
             //Content
             $mail->isHTML(true);                                  //Set email format to HTML
             $mail->Subject = 'Email Verification from Vinayaka Auto Works';
-            $mail->Body    = "Hi $user, <br/><br/>Please use the below OTP to complete the registration.<br/><br/><br/><div style='background-color:lightblue;text-align:center;color:white;padding:10px;margin:40px;'>$otp</div>";
+            $mail->Body    = "Hi $user, <br/><br/>Please use the below OTP to complete the registration.<br/><br/><br/><div style='background-color:white;text-align:center;color:black;padding:10px;margin:40px;'>$otp</div>";
         
         
             $mail->send();

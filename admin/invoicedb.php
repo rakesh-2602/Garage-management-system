@@ -148,7 +148,7 @@ if(isset($_POST['submit']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body><br/>
 <a href="invoice.php">Back</a>
     <form action="" method="post">
     <?php
@@ -215,24 +215,24 @@ if(isset($_POST['submit']))
     margin-left: 90%;
     font-size: 20px;
     border:1px solid black;
-    background-color: #000;
+    background-color: green;
     padding:4px;
     border-radius:15px; 
     padding-left: 12px;
     padding-right: 12px;
-    color:#fff;
+    color:white;
     }
     a:hover{
-        background-color: #fff;
-    color:#000;
+        background-color: red;
+    color:white;
     }
       table {
         margin-left: 4%;
         margin-top: 2%;
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 90%;
-}
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+    }
 
 td, th {
   border: 2.5px solid black;
@@ -245,7 +245,7 @@ td{
 }
 th{
     color:white;
-    background-color: gray;
+    /* background-color: gray; */
 }
 .btn{
     border:none;

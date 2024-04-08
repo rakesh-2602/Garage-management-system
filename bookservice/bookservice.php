@@ -73,7 +73,7 @@ if(!isset($_SESSION['user_id']))
 <tr>
 <td>Email ID</td>
 <td><input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td>
-<td>&emsp;&emsp;Complaints<br /><br /><br /></td>
+<td>&emsp;&emsp;Service<br /><br /><br /></td>
 <td><textarea name="complaint" rows="4" cols="33" required></textarea></td>
 </tr>
 <tr>

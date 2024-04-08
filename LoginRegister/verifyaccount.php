@@ -38,6 +38,9 @@ icon: "<?php echo $_SESSION['status_code']; ?>",
     </div>
     </div>
     <style>
+        .box{
+            border-radius:50px;
+        }
         .closebtn{
             margin-left:15px;
             color:black;
@@ -47,6 +50,7 @@ icon: "<?php echo $_SESSION['status_code']; ?>",
             font-size:22px;
             cursor:pointer;
             transition:0.3s;
+            border-radius:50px;
         }
         #alert{
             height:auto;
@@ -57,10 +61,20 @@ icon: "<?php echo $_SESSION['status_code']; ?>",
             line-height:40px;
             margin:10px 0;
             color:black;
-            border-radius:4px;
+            border-radius:50px;
+        }
+        input[type=text]{
+            border-radius:50px;
         }
         input[type=submit]{
             cursor:pointer;
+            border-radius:50px;
+            background-color:red;
+            width:50%;
+            margin-left:80px;
+        }
+        input[type=submit]:hover{
+            background-color:green;
         }
     </style>
     <?php
