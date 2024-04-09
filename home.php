@@ -15,21 +15,20 @@
         <div id="logo">
             <img src="images\logo.jpg" alt="image is not supported">
         </div>
-            <ul>
-                <b><li class="item"><a href="bookservice/bookservice.php">Book Service</a></li></b>
-                <b><li class="item"><a href="accessories/accessories.php">Accessories</a></li></b>
-                <b><li class="item"><a href="about.php">About us</a></li></b>
-                <b><li class="item"><a style="color:green;" href="LoginRegister/login.php">Login</a></li></b>
-            </ul>          
-           
-            
     </nav>
 
-    <div class="text"><br><br><br>
-        <h1>VINAYAKA AUTO WORKS &emsp;&emsp;</h1>
+    <div class="text">
+        <h1>&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;VINAYAKA AUTO WORKS &emsp;&emsp;</h1>
         <h2>One stop for all your two wheeler needs</h2>
+       <p style="color:aliceblue; text-align: center;">Welcome to Vinayaka Auto Works, your trusted destination for all things related to two-wheelers vehicles.
+            At Vinayaka Auto Works, we are committed to providing top-notch services, including maintenance, repairs, and customization 
+    for your vehicles.We ensure that your vehicles receive the care and attention they deserve.
+        </p>
+        <h2><li class="item"><a style="color:red;" href="LoginRegister/login.php">Login</a></li></b></h2>
     </div> 
+   
     <!-- <div class="footer">
+ </ul>
         <div class="container">
             <div class="row1">
                 <div class="footer-col2">
@@ -110,9 +109,9 @@
             padding:6px;
             margin-top: 6px;
         }
-        .link a:hover{
-            background-color: gray;
-            color:white;
+    a:hover{
+          color: #8a8a8a;
+            
         }
         p{
             font-size: 20px;
@@ -186,11 +185,12 @@
     background-color: white;
 }
 .text{
-    margin: 85px 50px;
-    text-align:left;
+    margin-top: 1%;
+
+    text-align:center;
     font-size: 160%;
     color:white;
-    font-family:;
+    font-family:sans-serif;
     text-shadow: 2px 2px rgb(8, 8, 8);
 }
 .slideshow-item img{

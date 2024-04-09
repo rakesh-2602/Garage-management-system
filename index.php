@@ -3,7 +3,7 @@ session_start();
 require('LoginRegister/connection.php');
 if(!isset($_SESSION['user_id']))
 {
-    header('Location:Loginregister/login.php');
+    header('Location:home.php');
 }
 ?>
 <!DOCTYPE html>
@@ -217,7 +217,7 @@ if(mysqli_num_rows($res)>0)
     text-align:left;
     font-size: 160%;
     color:white;
-    font-family:;
+    font-family:sans-serif;
     text-shadow: 2px 2px rgb(8, 8, 8);
 }
 .slideshow-item img{
