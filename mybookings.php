@@ -23,7 +23,7 @@ if($bookres)
         if(mysqli_num_rows($bookres)>0)
             {?>
                 <table>
-                <center><h1>Services Booked</h1></center>
+                <h1>Services Booked</h1>
                 <tr>
                     <th>Name</th>
                     <th>Reg. No.</th>
@@ -71,7 +71,7 @@ $cart_res=mysqli_query($accconn,$cart_qry);
 if(mysqli_num_rows($cart_res)>0)
     {?>
         <table>
-            <center><h1>Accessories Booked</h1></center>
+            <h1>Accessories Booked</h1>
             <tr>
                 <th>Serial No.</th>
                 <th>Item Name</th>
@@ -102,7 +102,7 @@ if(mysqli_num_rows($cart_res)>0)
             if(mysqli_num_rows($res)>0)
                 {?>
                 <table>
-                <center><h1>Vehicle Booked</h1></center>
+                <h1>Vehicle Booked</h1>
             <tr>
                 <th>Brand</th>
                 <th>Model</th>
@@ -126,7 +126,7 @@ if(mysqli_num_rows($cart_res)>0)
                 }
                 ?>
                     <tr>
-                        <td colspan=6><center><h4>Total - <?php echo $total; ?> Rs.</h4></center></td>
+                        <td colspan=6><h4>Total - <?php echo $total; ?> Rs.</h4></td>
                     </tr>
                     </table>
                     <?php
@@ -138,7 +138,7 @@ if($qryres)
             if(mysqli_num_rows($qryres)>0)
                 {?>
                 <table>
-                    <center><h1>Sell History</h1></center>
+                    <h1>Sell History</h1>
                     <tr>
                         <th>Name</th>
                         <th>Email</th>
