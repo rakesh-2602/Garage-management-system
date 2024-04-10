@@ -17,14 +17,14 @@
         </div>
     </nav>
 
-    <div class="text">
-        <h1>&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;VINAYAKA AUTO WORKS &emsp;&emsp;</h1>
-        <h2>One stop for all your two wheeler needs</h2>
-       <p style="color:aliceblue; text-align: center;">Welcome to Vinayaka Auto Works, your trusted destination for all things related to two-wheelers vehicles.
-            At Vinayaka Auto Works, we are committed to providing top-notch services, including maintenance, repairs, and customization 
-    for your vehicles.We ensure that your vehicles receive the care and attention they deserve.
-        </p>
-        <h2><li class="item"><a style="color:red;" href="LoginRegister/login.php">Login</a></li></b></h2>
+    <div class="text"><br/><br/>
+        <h1>VINAYAKA AUTO WORKS</h1>
+        <h2>One stop for all your two wheeler needs</h2><br>
+       <p style="color:white; text-align: center;">Welcome to Vinayaka Auto Works, your trusted destination for all things related to two-wheelers vehicles.
+            At Vinayaka Auto Works,<br> we are committed to providing top-notch services, including maintenance, repairs, and customization 
+    for your vehicles.We ensure that<br> your vehicles receive the care and attention they deserve.
+        </p><br/>
+        <button><span><a href="LoginRegister/login.php">Login/SignUp</a></span></button>
     </div> 
    
     <!-- <div class="footer">
@@ -41,7 +41,27 @@
         </div>
     </div> -->
     <style>
-        h1,h2{
+        span{
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        button{
+            background-color: red;
+            color:white;
+            border-radius: 50px;
+            width:200px;
+            height: 40px;
+        }
+        a{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: green;
+        }
+        /* h1,h2{
             text-align:center;
         }
         .action .profile img{
@@ -96,8 +116,8 @@
             overflow:hidden;
             cursor:pointer;
             margin-left: 80%;
-        }
-        .link{
+        } */
+        /* .link{
             display:flex;
             flex-direction:column;
         }
@@ -112,10 +132,8 @@
     a:hover{
           color: #8a8a8a;
             
-        }
-        p{
-            font-size: 20px;
-        }
+        } */
+        /* 
         .row1{
             margin-left: 40%;
         }
@@ -136,23 +154,28 @@
         }
         .row .col3{
             padding: 15px;
+        } */
+        p{
+            font-size: 23px;
+            color: white;
+            font-weight: bold;
         }
         body{
             background-size: cover;
-    background-image: url(img2.jpg);
+    background-image: url(images/logo2.jpg);
 }
 *{
     margin: 0;
     padding: 0;
 }
 
-#navbar{
+/* #navbar{
     border-bottom: none;
     display: flex;
     align-items: center;
     position: relative;
     
-}
+} */
 
 #logo{
     display:flex;
@@ -160,19 +183,20 @@
 }
 /* logo */
 #logo img{
-    height: 65px;
+    width: 200px;
+    height: 150px;
     margin:auto;
 }
-#navbar ul{
+/* #navbar ul{
     display: flex;
     margin-left: 43%;
 }
 #navbar ul li{
     list-style: none;
     font-size: 20px;
-}
+} */
 /* navbar text decor */
-#navbar ul li a{
+ul li a{
     color: white;
     display: block;
     padding: 3px 13px;
@@ -180,23 +204,21 @@
     text-decoration: none;
 }
 /* hover effect */
-#navbar ul li a:hover{
+/* #navbar ul li a:hover{
     color: black;
     background-color: white;
-}
+} */
 .text{
     margin-top: 1%;
-
     text-align:center;
-    font-size: 160%;
+    font-size: 180%;
     color:white;
     font-family:sans-serif;
-    text-shadow: 2px 2px rgb(8, 8, 8);
 }
-.slideshow-item img{
+/* .slideshow-item img{
     margin: 90px 5%;
     
-}
+} */
     </style>
     <script>
         function fnprofile(){
