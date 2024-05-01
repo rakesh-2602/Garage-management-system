@@ -754,7 +754,7 @@ if(!isset($_SESSION['user_id']))
         margin-top: 10px;
         font-size: 40px;
         margin-left: 80%;
-        color: black;
+        color: red;
     }
     .navbar a i:hover{
         color: green;
@@ -763,10 +763,10 @@ if(!isset($_SESSION['user_id']))
         margin-top: 10px;
         font-size: 38px;
         margin-left: 5%;
-        color: black;
+        color: green;
     }
     .navbar .home a i:hover{
-        color: green;
+        color: red;
     }
     .navbar{
         display: flex;

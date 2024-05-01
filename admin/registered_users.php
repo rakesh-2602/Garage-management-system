@@ -211,7 +211,7 @@ th{
         padding-left: 40px;
         padding-top: 50px;
   position: fixed;
-  background:linear-gradient(#191654,#43C6AC);
+  background:linear-gradient(#5CE0D8,#01345B,#FFCF43);
   min-height: 100vh;
   width: calc(100% - 240px);
   left: 240px;

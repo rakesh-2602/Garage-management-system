@@ -252,13 +252,18 @@ th{
     background: none;
 }
 input[type=submit]{
-    background-color: limegreen;
+    background-color: red;
     height:30px;
     border-radius:15px;
     cursor:pointer;
+    color: white;
+    font-weight: bold;
+}
+input[type=submit]:hover{
+    background-color: green;
 }
 body{
-    background:linear-gradient(#191654,#43C6AC);
+    background:linear-gradient(#5CE0D8,#01345B,#FFCF43);
 }
 html,body
 {

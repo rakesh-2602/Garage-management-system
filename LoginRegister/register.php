@@ -151,6 +151,7 @@ body {
     min-height: 100vh;
     background: #1f293a;
     background-image: url(../images/logo2.jpg);
+    background-size: 100%;
 }
 .container {
     position: relative;

@@ -86,18 +86,17 @@ icon: "<?php echo $_SESSION['status_code1']; ?>",
     nav a{
         margin-left: 90%;
         text-decoration: none;
-        border:2px solid black;
         font-size:20px;
         padding-top: 5px;
         PADDING-bottom: 5px;
         padding-left:16px;
         padding-right:16px;
         border-radius:15px;
-        background-color: white;
-        color:black;
+        background-color: green;
+        color:white;
     }
     nav a:hover{
-        background:green;
+        background:red;
         color:white;
         /* background-color: rgb(31, 143, 212); */
     }

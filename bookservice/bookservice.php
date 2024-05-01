@@ -86,10 +86,10 @@ if(!isset($_SESSION['user_id']))
     a{
         font-size: 38px;
         margin-left: 90%;
-        color: white;
+        color: green;
     }
     a i:hover{
-        color: green;
+        color: red;
     }
         .closebtn{
             margin-left:15px;
@@ -154,14 +154,14 @@ input[type=text], input[type=email], input[type=number]{
 input[type=submit]{
     cursor:pointer;
     border-radius:50px;
-    box-shadow:3px 4px 6px black;
     border: none;
-    background-color:black;
+    background-color:red;
     width: 20%;
     padding: 8px 15px;
     margin: 5px 0;
     font-weight:bold;
     color:white;
+    font-size: 15px;
 }
 input[type=submit]:hover{
     background-color:green;

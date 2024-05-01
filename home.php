@@ -24,7 +24,7 @@
             At Vinayaka Auto Works,<br> we are committed to providing top-notch services, including maintenance, repairs, and customization 
     for your vehicles.We ensure that<br> your vehicles receive the care and attention they deserve.
         </p><br/>
-        <button><span><a href="LoginRegister/login.php">Login/SignUp</a></span></button>
+        <button><span><a href="LoginRegister/login.php">Login</a></span></button>
     </div> 
    
     <!-- <div class="footer">

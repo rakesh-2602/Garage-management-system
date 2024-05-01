@@ -133,6 +133,13 @@ if(!isset($_SESSION['user_id']))
         width:40%;
         height:35px;
         cursor: pointer;
+        color: white;
+        background-color: red;
+        border-radius: 50px;
+    }
+    input[type=submit]:hover{
+        color: white;
+        background-color: green;
     }
     label{
         font-size:18px;
@@ -141,17 +148,16 @@ if(!isset($_SESSION['user_id']))
     text-decoration: none;
     margin-left: 90%;
     font-size: 20px;
-    border:2px solid black;
-    background-color: #fff;
+    background-color: green;
     padding:4px;
     border-radius:15px; 
     padding-left: 12px;
     padding-right: 12px;
-    color:black;
+    color:white;
     }
     nav a:hover{
-        background-color: #000;
-    color:#fff;
+        background-color: red;
+        color:white;
     }
     nav{
         margin-top: 2%;
@@ -175,15 +181,15 @@ if(!isset($_SESSION['user_id']))
         display:flex;
     }
     .btn{
-        border:1px solid red;
         padding:5px;
         color:white;
-        background-color:red;
-        cursor:pointer
+        background-color:green;
+        cursor:pointer;
+        border-radius: 50px;
     }
     .btn:hover{
-        color:red;
-        background-color:white;
+        color:white;
+        background-color:red;
     }
     .col-lg-8{
         padding: 4%;

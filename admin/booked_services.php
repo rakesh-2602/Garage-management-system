@@ -221,7 +221,7 @@ tr:nth-child(even) {
         padding-left: 40px;
         padding-top: 50px;
   position: relative;
-  background:linear-gradient(#191654,#43C6AC);
+  background:linear-gradient(#5CE0D8,#01345B,#FFCF43);
   min-height: 100vh;
   width: calc(100% - 200px);
   left: 240px;

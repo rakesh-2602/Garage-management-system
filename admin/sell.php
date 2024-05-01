@@ -116,6 +116,9 @@ input[type=submit]{
     cursor:pointer;
     border-radius: 50px;
     background-color: red;
+    width: 50%;
+    align-self: center;
+    font-weight: bold;
 }
 input[type=submit]:hover{
     background-color: green;
@@ -196,7 +199,7 @@ input[type=submit]:hover{
     }
     .home-section{
   position: fixed;
-  background:linear-gradient(#191654,#43C6AC);
+  background:linear-gradient(#5CE0D8,#01345B,#FFCF43);
   min-height: 100vh;
   width: calc(100% - 240px);
   left: 240px;

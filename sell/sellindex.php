@@ -38,10 +38,10 @@ if(isset($_SESSION['status']))
       a{
         margin-left: 90%;
         font-size:40px;
-        color:white;
+        color:green;
     }
     a:hover{
-        color: green;
+        color: red;
     }
     body{
         background-image: url("../images/sell1.jpeg");
@@ -66,7 +66,7 @@ table{
 }
 input[type=submit]{
     border: none;
-    background-color:black;
+    background-color:red;
  width: 25%;
  font-weight:bold;
  padding: 8px 15px;

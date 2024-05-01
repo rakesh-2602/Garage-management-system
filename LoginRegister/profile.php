@@ -208,7 +208,6 @@ if(isset($_POST['changephoto']))
         text-decoration: none;
     margin-left: 90%;
     font-size: 20px;
-    border:1px solid black;
     background-color: green;
     padding:4px;
     border-radius:15px; 

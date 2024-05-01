@@ -522,7 +522,7 @@ if(!isset($_SESSION['admin_name']))
    nav a{
         margin-left: 90%;
         font-size:40px;
-        color:black;
+        color:green;
     }
     nav a:hover{
         color:red;
@@ -583,7 +583,7 @@ if(!isset($_SESSION['admin_name']))
     box-sizing: border-box;
 }
 body{
-    background:lightgray;
+    background:white;
     font-family: 'Poppins', sans-serif;
 }
 .container{

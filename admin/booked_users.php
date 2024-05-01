@@ -98,33 +98,34 @@ if(!isset($_SESSION['admin_name']))
         width:50px;
     }
     body{
-        background:linear-gradient(#191654,#43C6AC);
+        background:linear-gradient(#5CE0D8,#01345B,#FFCF43);
         background-repeat: no-repeat;
         height:696px;    }
      nav a{
         margin-left: 90%;
         font-size:36px;
-        color:white;
+        color:green;
     }
     nav a:hover{
-        color:green;
+        color:red;
     }
     h1{
         margin-left: 40%;
         text-decoration: underline;
         color:white;
     }
-        .btn{
-            width:80px;
-            height:28px;
+    .btn{
+        width:80px;
+        height:28px;
         color:white;
-        background:red;
-        border:2px solid red;
+        background:green;
         cursor:pointer;
+        border-radius: 50px;
     }
     .btn:hover{
-        color:red;
-        background:white;
+        color:white;
+        background:red;
+        border-radius: 50px;
     }
      table {
   font-family: arial, sans-serif;

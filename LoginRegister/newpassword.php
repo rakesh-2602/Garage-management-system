@@ -113,6 +113,7 @@ body {
     min-height: 100vh;
     background: #1f293a;
     background-image: url(../images/logo2.jpg);
+    background-size: 100%;
 }
 .container {
     position: relative;
@@ -130,7 +131,7 @@ body {
     background: #2c4766;
     border-radius: 8px;
     transform-origin: 128px;
-    transform: scale(2.2) rotate(calc(var(--i) * (360deg / 50)));
+    transform: scale(2.4) rotate(calc(var(--i) * (360deg / 50)));
     animation: animateBlink 3s linear infinite;
     animation-delay: calc(var(--i) * (3s / 50));
 }

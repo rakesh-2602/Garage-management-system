@@ -84,13 +84,13 @@ icon: "<?php echo $_SESSION['status_code']; ?>",
   }
   a{
     font-size:34px;
-    color:black;
+    color:green;
   }
   .a{
       margin-left: 40px;
   }
   a:hover{
-    color:green;
+    color:red;
   }
     body{
       background:white;

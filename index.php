@@ -55,19 +55,16 @@ if(mysqli_num_rows($res)>0)
     <div class="text"><br><br><br>
         <h1>VINAYAKA AUTO WORKS &emsp;&emsp;</h1>
         <h2>One stop for all your two wheeler needs</h2>
-    </div> 
-    <!-- <div class="footer">
+    </div> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div class="footer">
         <div class="container">
             <div class="row1">
                 <div class="footer-col2">
-                    <p>Copyrights © 2022, All rights reserved.</p>
-                </div>
-                <div class="footer-col3">
-                    <p>Follow us on &ensp;<i class="fa fa-instagram" style="font-size:25px;color: red;">&ensp;</i><i class="fa fa-whatsapp" style="font-size:25px;color: green;"></i> &ensp;<i class="fa fa-facebook" style="font-size:25px;color: blue;"></i>&ensp; <i class="fa fa-twitter" style="font-size:25px;color: lightblue;"></i></p>
+                    <p>Copyrights © 2024, All rights reserved.</p>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <style>
         h1,h2{
             text-align:center;
@@ -156,7 +153,7 @@ if(mysqli_num_rows($res)>0)
         .footer{
             background-color: rgb(25, 22, 22);
             color: #8a8a8a;
-            padding: 20px 0 20px;
+            padding: 22px 0 20px;
         }
         .row{
             display: flex;
